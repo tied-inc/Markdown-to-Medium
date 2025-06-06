@@ -1,0 +1,6 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+When user input URL or external link, you always need to use `fetch` mcp to retrieve contents.

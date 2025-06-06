@@ -1,0 +1,8 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+When update something about internationalization, please lookup below link with `fetch` mcp
+
+https://react.i18next.com/llms.txt

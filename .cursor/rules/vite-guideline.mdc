@@ -1,0 +1,8 @@
+---
+description:
+globs: **/*.tsx
+alwaysApply: false
+---
+when you update *.tsx files, please look up below link via `fetch` mcp. This contains vite information
+
+- https://vite.dev/llms.txt
