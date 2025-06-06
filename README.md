@@ -2,6 +2,8 @@
 
 A modern web application that converts Markdown format to HTML that's compatible with [Medium.com](https://medium.com/) editor. Built with React, TypeScript, and Vite.
 
+This project is inspired by [markdown-to-medium-tool](https://github.com/fanderzon/markdown-to-medium-tool).
+
 ## 🌟 Features
 
 - **Real-time Preview**: See your Markdown converted to Medium-compatible HTML in real-time
