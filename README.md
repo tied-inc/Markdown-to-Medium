@@ -20,18 +20,39 @@ The application is hosted at: http://markdown-to-medium.surge.sh/
 
 This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
 
-### Setup GitHub Pages
+### Initial Setup Steps
 
-1. In your GitHub repository, go to **Settings** → **Pages**
-2. Under "Build and deployment", select **GitHub Actions** as the source
-3. Push to the `main` branch or manually trigger the workflow from the **Actions** tab
+**IMPORTANT**: Follow these steps in order to avoid the "Not Found" error:
+
+1. **Enable GitHub Pages first**:
+   - Go to your repository on GitHub
+   - Navigate to **Settings** → **Pages**
+   - Under "Build and deployment", select **GitHub Actions** as the source
+   - Click **Save**
+
+2. **Create the workflow file**:
+   - Ensure the `.github/workflows/deploy.yml` file exists in your repository
+   - If you're setting this up for the first time, commit and push the workflow file
+
+3. **Trigger the deployment**:
+   - Push to the `main` branch, or
+   - Go to **Actions** tab and manually run the "Build and Deploy to GitHub Pages" workflow
+
+4. **Verify deployment**:
+   - Check the **Actions** tab for workflow status
+   - Once successful, your site will be available at: `https://[username].github.io/[repository-name]/`
+
+### Troubleshooting
+
+If you encounter the "Not Found" error:
+- Ensure GitHub Pages is enabled in repository settings **before** running the workflow
+- Check that your repository is public, or you have GitHub Pro/Team for private repo Pages
+- Verify the workflow has the correct permissions (already configured in the workflow file)
 
 The GitHub Actions workflow will automatically:
-- Install dependencies
-- Build the project
-- Deploy to GitHub Pages
-
-Your site will be available at: `https://[username].github.io/[repository-name]/`
+- Install dependencies using Node.js 20
+- Build the project with Vite
+- Deploy the `dist` folder to GitHub Pages
 
 ## 🛠️ Technology Stack
 
