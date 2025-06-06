@@ -14,7 +14,7 @@ A modern web application that converts Markdown format to HTML that's compatible
 
 ## 🚀 Live Demo
 
-The application is hosted at: http://markdown-to-medium.surge.sh/
+The application is hosted at: https://hayata-yamamoto.github.io/Markdown-to-Medium/
 
 ## 📦 GitHub Pages Deployment
 
