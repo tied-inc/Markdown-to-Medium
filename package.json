@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check": "biome check"
   },
   "author": "",
   "license": "ISC",
@@ -46,6 +47,7 @@
     "tailwindcss-animate": "^1.0.7",
     "tw-animate-css": "^1.3.4",
     "typescript": "^5.8.3",
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "vite-plugin-radar": "^0.10.0"
   }
 }

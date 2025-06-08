@@ -20,5 +20,5 @@
 pre-commit:
   parallel: true
   jobs:
-    - run: yarn biome check {staged_files}
+    - run: npm run check {staged_files}
       glob: "*.{ts,tsx}"
