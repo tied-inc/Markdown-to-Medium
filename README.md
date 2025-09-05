@@ -16,7 +16,7 @@ This project is inspired by [markdown-to-medium-tool](https://github.com/fanderz
 
 ## 🚀 Live Demo
 
-The application is hosted at: https://hayata-yamamoto.github.io/Markdown-to-Medium/
+The application is hosted at: https://m2m.tied-inc.com/
 
 ## 📦 GitHub Pages Deployment
 
