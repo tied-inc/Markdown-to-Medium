@@ -36,8 +36,14 @@ jobs:
         run: npm ci
 
       - name: Build application
-        env: 
+        env:
+          NODE_ENV: ${{ secrets.NODE_ENV }}
           VITE_GTM_ID: ${{ secrets.VITE_GTM_ID }}
+          VITE_SENTRY_ORG: ${{ secrets.VITE_SENTRY_ORG }}
+          VITE_SENTRY_PROJECT: ${{ secrets.VITE_SENTRY_PROJECT }}
+          VITE_SENTRY_DSN: ${{ secrets.VITE_SENTRY_DSN }}
+          VITE_SENTRY_ENVIRONMENT: ${{ secrets.VITE_SENTRY_ENVIRONMENT }}
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
         run: npm run build
 
       - name: Setup Pages
