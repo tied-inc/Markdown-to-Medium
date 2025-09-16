@@ -1,6 +1,7 @@
 import i18n from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
+import config from "./config";
 
 // 翻訳リソース
 const resources = {
@@ -71,6 +72,153 @@ const resources = {
 
       // Preview content
       previewPlaceholder: "Enter something in the editor to display preview.",
+    },
+  },
+  ru: {
+    translation: {
+      // App title and labels
+      title: "Markdown to Medium",
+      markdownEditor: "Редактор Markdown",
+      medium: "Medium",
+      mediumSubtitle: "copy and paste to medium",
+
+      // Buttons
+      help: "Справка",
+      editMode: "Режим редактирования",
+      previewMode: "Режим предпросмотра",
+
+      // Help content
+      helpTitle: "Справка по синтаксису Markdown",
+      helpDescription:
+        "Список синтаксиса Markdown, поддерживаемого этим редактором.",
+
+      // Usage section
+      usageTitle: "Как пользоваться",
+      usageStep1: "Редактируйте Markdown в левом редакторе",
+      usageStep2: "Проверьте предпросмотр с помощью кнопки 'Preview Mode'",
+      usageStep3: "Выделите всё (Cmd+A) и скопируйте на экране предпросмотра",
+      usageStep4: "Вставьте в редактор постов Medium",
+      usageTip:
+        "💡 В режиме предпросмотра применяются шрифты и стили, используемые в постах Medium.",
+
+      // Syntax sections
+      headingsTitle: "Заголовки",
+      textStylingTitle: "Оформление текста",
+      listsTitle: "Списки",
+      linksTitle: "Ссылки",
+      codeTitle: "Код",
+      quotesTitle: "Цитаты",
+
+      // Text styling examples
+      bold: "**Жирный**",
+      italic: "*Курсив*",
+      boldItalic: "***Жирный и курсив***",
+
+      // List examples
+      unorderedList: "Маркированный список:",
+      item1: "Элемент 1",
+      item2: "Элемент 2",
+      nestedItem: "Вложенный элемент",
+      anotherNestedItem: "Ещё один вложенный элемент",
+      item3: "Элемент 3",
+      orderedList: "Нумерованный список:",
+      firstItem: "Первый элемент",
+      secondItem: "Второй элемент",
+      thirdItem: "Третий элемент",
+
+      // Code examples
+      inlineCode: "Встроенный код:",
+      codeBlock: "Блок кода:",
+
+      // Placeholder text
+      placeholderUsage: "【Как пользоваться】",
+      placeholderStep1: "1. Редактируйте Markdown здесь",
+      placeholderStep2: "2. Проверьте предпросмотр с кнопкой 'Preview Mode'",
+      placeholderStep3:
+        "3. На экране предпросмотра нажмите Cmd+A (выделить всё) и скопируйте",
+      placeholderStep4: "4. Вставьте в редактор постов Medium",
+      placeholderSupportedSyntax: "【Поддерживаемый синтаксис】",
+      placeholderQuote: "Это цитата.",
+      placeholderMultilineQuote:
+        "Можно также использовать многострочные цитаты.",
+
+      // Preview content
+      previewPlaceholder:
+        "Введите что-нибудь в редакторе, чтобы отобразить предпросмотр.",
+    },
+  },
+  ro: {
+    translation: {
+      // App title and labels
+      title: "Markdown to Medium",
+      markdownEditor: "Editor Markdown",
+      medium: "Medium",
+      mediumSubtitle: "copy and paste to medium",
+
+      // Buttons
+      help: "Ajutor",
+      editMode: "Mod editare",
+      previewMode: "Mod previzualizare",
+
+      // Help content
+      helpTitle: "Ajutor pentru sintaxa Markdown",
+      helpDescription: "Lista sintaxei Markdown acceptată de acest editor.",
+
+      // Usage section
+      usageTitle: "Cum se utilizează",
+      usageStep1: "Editați Markdown în editorul din stânga",
+      usageStep2: "Verificați previzualizarea cu butonul 'Preview Mode'",
+      usageStep3:
+        "Selectați tot (Cmd+A) și copiați în ecranul de previzualizare",
+      usageStep4: "Lipiți în editorul de postări Medium",
+      usageTip:
+        "💡 În modul de previzualizare se aplică fonturile și stilurile folosite în postările Medium.",
+
+      // Syntax sections
+      headingsTitle: "Titluri",
+      textStylingTitle: "Stilizarea textului",
+      listsTitle: "Liste",
+      linksTitle: "Linkuri",
+      codeTitle: "Cod",
+      quotesTitle: "Citate",
+
+      // Text styling examples
+      bold: "**Aldin**",
+      italic: "*Cursiv*",
+      boldItalic: "***Aldin și cursiv***",
+
+      // List examples
+      unorderedList: "Listă neordonată:",
+      item1: "Element 1",
+      item2: "Element 2",
+      nestedItem: "Element îmbricat",
+      anotherNestedItem: "Încă un element îmbricat",
+      item3: "Element 3",
+      orderedList: "Listă ordonată:",
+      firstItem: "Primul element",
+      secondItem: "Al doilea element",
+      thirdItem: "Al treilea element",
+
+      // Code examples
+      inlineCode: "Cod în linie:",
+      codeBlock: "Bloc de cod:",
+
+      // Placeholder text
+      placeholderUsage: "【Cum se utilizează】",
+      placeholderStep1: "1. Editați Markdown aici",
+      placeholderStep2:
+        "2. Verificați previzualizarea cu butonul 'Preview Mode'",
+      placeholderStep3:
+        "3. În ecranul de previzualizare apăsați Cmd+A (selectați tot) și copiați",
+      placeholderStep4: "4. Lipiți în editorul de postări Medium",
+      placeholderSupportedSyntax: "【Sintaxă acceptată】",
+      placeholderQuote: "Acesta este un citat.",
+      placeholderMultilineQuote:
+        "Sunt posibile și citate pe mai multe rânduri.",
+
+      // Preview content
+      previewPlaceholder:
+        "Introduceți ceva în editor pentru a afișa previzualizarea.",
     },
   },
   ja: {
@@ -155,7 +303,7 @@ i18n
   .init({
     resources,
     fallbackLng: "en",
-    debug: process.env.NODE_ENV === "development",
+    debug: config.isDevelopment(),
 
     interpolation: {
       escapeValue: false, // React では JSX が自動でエスケープするため不要

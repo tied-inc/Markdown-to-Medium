@@ -1,0 +1,15 @@
+# 環境変数サンプル（src/config.ts で利用）
+
+NODE_ENV=development
+
+# Google Tag Manager
+VITE_GTM_ID=GTM-XXXXXXX
+
+# Sentry (public)
+VITE_SENTRY_ORG=
+VITE_SENTRY_PROJECT=m2m
+VITE_SENTRY_DSN=
+VITE_SENTRY_ENVIRONMENT=development
+
+# Sentry (private)
+SENTRY_AUTH_TOKEN=
