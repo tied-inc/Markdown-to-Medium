@@ -22,10 +22,6 @@ export function generateOGPImageSVG(options: OGPOptions): string {
   const { title, description = "", theme = "light" } = options;
 
   const isDark = theme === "dark";
-  const bgGradient = isDark
-    ? "linear-gradient(135deg, #1f2937 0%, #111827 100%)"
-    : "linear-gradient(135deg, #667eea 0%, #764ba2 100%)";
-
   const textColor = isDark ? "#ffffff" : "#1f2937";
   const subtitleColor = isDark ? "#d1d5db" : "#6b7280";
 
@@ -72,14 +68,14 @@ export function generateOGPImageSVG(options: OGPOptions): string {
       </g>
 
       <text x="600" y="280" text-anchor="middle" fill="${textColor}" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold">
-        ${title.length > 30 ? title.substring(0, 30) + "..." : title}
+        ${title.length > 30 ? `${title.substring(0, 30)}...` : title}
       </text>
 
       ${
         description
           ? `
         <text x="600" y="320" text-anchor="middle" fill="${subtitleColor}" font-family="system-ui, -apple-system, sans-serif" font-size="24">
-          ${description.length > 60 ? description.substring(0, 60) + "..." : description}
+          ${description.length > 60 ? `${description.substring(0, 60)}...` : description}
         </text>
       `
           : ""

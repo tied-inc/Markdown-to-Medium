@@ -1,6 +1,7 @@
 import { convertMarkdown, generatePreviewHTML } from "@/lib/utils/markdown";
 import type React from "react";
 import { useTranslation } from "react-i18next";
+import config from "../config";
 
 interface MarkdownPreviewProps {
   markdownContent: string;
@@ -197,7 +198,7 @@ export const MarkdownPreview = ({ markdownContent }: MarkdownPreviewProps) => {
         role="textbox"
         aria-label="Medium-style preview content"
         aria-readonly="true"
-        // eslint-disable-next-line react/no-danger
+        // biome-ignore lint/security/noDangerouslySetInnerHtml: Rendering trusted preview HTML for Medium-like output
         dangerouslySetInnerHTML={{
           __html:
             previewHTML ||
@@ -205,7 +206,7 @@ export const MarkdownPreview = ({ markdownContent }: MarkdownPreviewProps) => {
         }}
       />
       {/* Debug info */}
-      {process.env.NODE_ENV === "development" && (
+      {config.isDevelopment() && (
         <div className="mt-4 p-2 bg-gray-100 text-xs text-gray-600 border rounded">
           <strong>Debug:</strong> HTML length: {previewHTML?.length || 0}
           <details className="mt-2">
