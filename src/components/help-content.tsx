@@ -29,12 +29,12 @@ export const HelpContent = () => {
           {t("headingsTitle")}
         </h3>
         <div className="bg-slate-50 border border-slate-200 p-4 rounded-lg font-mono text-sm">
-          <div className="text-gray-800"># 見出し1</div>
-          <div className="text-gray-800">## 見出し2</div>
-          <div className="text-gray-800">### 見出し3</div>
-          <div className="text-gray-800">#### 見出し4</div>
-          <div className="text-gray-800">##### 見出し5</div>
-          <div className="text-gray-800">###### 見出し6</div>
+          <div className="text-gray-800"># {t("heading1")}</div>
+          <div className="text-gray-800">## {t("heading2")}</div>
+          <div className="text-gray-800">### {t("heading3")}</div>
+          <div className="text-gray-800">#### {t("heading4")}</div>
+          <div className="text-gray-800">##### {t("heading5")}</div>
+          <div className="text-gray-800">###### {t("heading6")}</div>
         </div>
       </section>
 
@@ -77,7 +77,7 @@ export const HelpContent = () => {
         </h3>
         <div className="bg-slate-50 border border-slate-200 p-4 rounded-lg font-mono text-sm">
           <div className="text-gray-800">
-            [リンクテキスト](https://example.com)
+            [{t("linkText")}](https://example.com)
           </div>
           <div className="text-gray-800">[Google](https://www.google.com)</div>
         </div>

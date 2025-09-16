@@ -39,6 +39,14 @@ const resources = {
       codeTitle: "Code",
       quotesTitle: "Quotes",
 
+      // Headings examples
+      heading1: "Heading 1",
+      heading2: "Heading 2",
+      heading3: "Heading 3",
+      heading4: "Heading 4",
+      heading5: "Heading 5",
+      heading6: "Heading 6",
+
       // Text styling examples
       bold: "**Bold**",
       italic: "*Italic*",
@@ -70,8 +78,34 @@ const resources = {
       placeholderQuote: "This is a quote.",
       placeholderMultilineQuote: "Multi-line quotes are also possible.",
 
+      // Links examples
+      linkText: "Link text",
+
       // Preview content
       previewPlaceholder: "Enter something in the editor to display preview.",
+
+      // Samples and labels
+      heading1Sample: "# Heading 1",
+      heading2Sample: "## Heading 2",
+      heading3Sample: "### Heading 3",
+      heading4Sample: "#### Heading 4",
+      heading5Sample: "##### Heading 5",
+      heading6Sample: "###### Heading 6",
+      linkTextSample: "[Link text](https://example.com)",
+      linkGoogleSample: "[Google](https://www.google.com)",
+      inlineCodeSample: '`console.log("Hello World")`',
+      codeBlockLine1: "```javascript",
+      codeBlockLine2: "function greet(name) {",
+      codeBlockLine3: '  console.log("Hello, " + name + "!");',
+      codeBlockLine4: "}",
+      codeBlockLine5: "```",
+      nestedListSample: "Nested list",
+      editIconTitle: "Edit icon",
+      previewIconTitle: "Preview icon",
+      previewAriaLabel: "Medium-style preview content",
+      debugLabel: "Debug:",
+      showRawHtml: "Show raw HTML",
+      showProcessedHtml: "Show processed HTML",
     },
   },
   ru: {
@@ -109,6 +143,14 @@ const resources = {
       codeTitle: "Код",
       quotesTitle: "Цитаты",
 
+      // Headings examples
+      heading1: "Заголовок 1",
+      heading2: "Заголовок 2",
+      heading3: "Заголовок 3",
+      heading4: "Заголовок 4",
+      heading5: "Заголовок 5",
+      heading6: "Заголовок 6",
+
       // Text styling examples
       bold: "**Жирный**",
       italic: "*Курсив*",
@@ -142,9 +184,35 @@ const resources = {
       placeholderMultilineQuote:
         "Можно также использовать многострочные цитаты.",
 
+      // Links examples
+      linkText: "Текст ссылки",
+
       // Preview content
       previewPlaceholder:
         "Введите что-нибудь в редакторе, чтобы отобразить предпросмотр.",
+
+      // Samples and labels
+      heading1Sample: "# Заголовок 1",
+      heading2Sample: "## Заголовок 2",
+      heading3Sample: "### Заголовок 3",
+      heading4Sample: "#### Заголовок 4",
+      heading5Sample: "##### Заголовок 5",
+      heading6Sample: "###### Заголовок 6",
+      linkTextSample: "[Текст ссылки](https://example.com)",
+      linkGoogleSample: "[Google](https://www.google.com)",
+      inlineCodeSample: '`console.log("Hello World")`',
+      codeBlockLine1: "```javascript",
+      codeBlockLine2: "function greet(name) {",
+      codeBlockLine3: '  console.log("Hello, " + name + "!");',
+      codeBlockLine4: "}",
+      codeBlockLine5: "```",
+      nestedListSample: "Вложенный список",
+      editIconTitle: "Значок редактирования",
+      previewIconTitle: "Значок предпросмотра",
+      previewAriaLabel: "Содержимое предпросмотра в стиле Medium",
+      debugLabel: "Отладка:",
+      showRawHtml: "Показать исходный HTML",
+      showProcessedHtml: "Показать обработанный HTML",
     },
   },
   ro: {
@@ -182,6 +250,14 @@ const resources = {
       codeTitle: "Cod",
       quotesTitle: "Citate",
 
+      // Headings examples
+      heading1: "Titlu 1",
+      heading2: "Titlu 2",
+      heading3: "Titlu 3",
+      heading4: "Titlu 4",
+      heading5: "Titlu 5",
+      heading6: "Titlu 6",
+
       // Text styling examples
       bold: "**Aldin**",
       italic: "*Cursiv*",
@@ -216,9 +292,35 @@ const resources = {
       placeholderMultilineQuote:
         "Sunt posibile și citate pe mai multe rânduri.",
 
+      // Links examples
+      linkText: "Textul linkului",
+
       // Preview content
       previewPlaceholder:
         "Introduceți ceva în editor pentru a afișa previzualizarea.",
+
+      // Samples and labels
+      heading1Sample: "# Titlu 1",
+      heading2Sample: "## Titlu 2",
+      heading3Sample: "### Titlu 3",
+      heading4Sample: "#### Titlu 4",
+      heading5Sample: "##### Titlu 5",
+      heading6Sample: "###### Titlu 6",
+      linkTextSample: "[Textul linkului](https://example.com)",
+      linkGoogleSample: "[Google](https://www.google.com)",
+      inlineCodeSample: '`console.log("Hello World")`',
+      codeBlockLine1: "```javascript",
+      codeBlockLine2: "function greet(name) {",
+      codeBlockLine3: '  console.log("Hello, " + name + "!");',
+      codeBlockLine4: "}",
+      codeBlockLine5: "```",
+      nestedListSample: "Listă îmbricată",
+      editIconTitle: "Pictograma editare",
+      previewIconTitle: "Pictograma previzualizare",
+      previewAriaLabel: "Conținut de previzualizare în stil Medium",
+      debugLabel: "Depanare:",
+      showRawHtml: "Afișează HTML brut",
+      showProcessedHtml: "Afișează HTML procesat",
     },
   },
   ja: {
@@ -256,6 +358,14 @@ const resources = {
       codeTitle: "コード",
       quotesTitle: "引用",
 
+      // Headings examples
+      heading1: "見出し1",
+      heading2: "見出し2",
+      heading3: "見出し3",
+      heading4: "見出し4",
+      heading5: "見出し5",
+      heading6: "見出し6",
+
       // Text styling examples
       bold: "**太字（Bold）**",
       italic: "*斜体（Italic）*",
@@ -287,9 +397,35 @@ const resources = {
       placeholderQuote: "これは引用文です。",
       placeholderMultilineQuote: "複数行にわたって引用することも可能です。",
 
+      // Links examples
+      linkText: "リンクテキスト",
+
       // Preview content
       previewPlaceholder:
         "プレビューを表示するには、エディターに何か入力してください。",
+
+      // Samples and labels
+      heading1Sample: "# 見出し1",
+      heading2Sample: "## 見出し2",
+      heading3Sample: "### 見出し3",
+      heading4Sample: "#### 見出し4",
+      heading5Sample: "##### 見出し5",
+      heading6Sample: "###### 見出し6",
+      linkTextSample: "[リンクテキスト](https://example.com)",
+      linkGoogleSample: "[Google](https://www.google.com)",
+      inlineCodeSample: '`console.log("Hello World")`',
+      codeBlockLine1: "```javascript",
+      codeBlockLine2: "function greet(name) {",
+      codeBlockLine3: '  console.log("Hello, " + name + "!");',
+      codeBlockLine4: "}",
+      codeBlockLine5: "```",
+      nestedListSample: "ネストしたリスト",
+      editIconTitle: "編集アイコン",
+      previewIconTitle: "プレビューアイコン",
+      previewAriaLabel: "Medium風プレビューコンテンツ",
+      debugLabel: "デバッグ:",
+      showRawHtml: "生のHTMLを表示",
+      showProcessedHtml: "処理後のHTMLを表示",
     },
   },
 };
